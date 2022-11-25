@@ -1,23 +1,32 @@
 {
-  "name": "@kosai/hello-ts",
-  "version": "1.0.0",
-  "author": "Ko Sai",
-  "description": "Testing",
-  "main": "lib/index.js",
-  "types": "lib/index.d.js",
-  "scripts": {
-    "build": "tsc"
-  },
-  "keywords": [
-    "sample",
-    "package",
-    "typescript"
-  ],
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^4.9.3"
-  },
-  "directories": {
-    "lib": "lib"
-  }
+	"name": "@kosai/hello-ts",
+	"version": "1.0.0",
+	"author": "Ko Sai",
+	"description": "Testing",
+	"main": "lib/index.js",
+	"types": "lib/index.d.js",
+	"private": false,
+	"scripts": {
+		"build": "tsc"
+	},
+	"keywords": [
+		"sample",
+		"package",
+		"typescript"
+	],
+	"license": "MIT",
+	"devDependencies": {
+		"typescript": "^4.9.3"
+	},
+	"directories": {
+		"lib": "lib"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Satupig/hello-ts"
+	},
+	"engines": {
+		"node": ">=16.0.0"
+	},
+	"engineStrict": true
 }
